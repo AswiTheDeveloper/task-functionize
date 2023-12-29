@@ -1,0 +1,30 @@
+.salary {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    align-items: stretch;
+    padding: 2px;
+    font-weight: bold;
+
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        border-right: 1px solid lightgray;
+    }
+
+    .percentage {
+        border-left: 1px solid lightgray;
+        border-right: none;
+    }
+
+    input {
+        outline: none;
+        border: none;
+        padding: 10px;
+        font-weight: bold;
+        width: 80%;
+
+    }
+}
