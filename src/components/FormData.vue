@@ -16,7 +16,7 @@
             class="w-6 mr-1"
             placeholder="Enter your User Name"
           />
-          <InlineMessage v-if="hasError && !user.name"> Required</InlineMessage>
+          <InlineMessage class="mx-2" v-if="hasError && !user.name"> Required</InlineMessage>
         </div>
       </div>
       <div class="flex flex-column align-items-start w-5">
