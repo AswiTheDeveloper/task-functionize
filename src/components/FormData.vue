@@ -249,7 +249,6 @@ export default {
     },
     onUpload(e) {
       let file = e.target.files[0];
-      console.log(file);
       this.user.resume = file;
       this.fileName = file.name;
       this.chipImg = URL.createObjectURL(file);
@@ -271,8 +270,6 @@ export default {
         EventBus.$emit("sendData", this.user);
         
       }
-      console.log(this.hasError);
-      console.log(this.user);
     },
   },
   components: {
